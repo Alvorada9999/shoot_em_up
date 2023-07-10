@@ -1,0 +1,10 @@
+-L./includes/
+-I./includes/
+-pedantic-errors
+-Wall
+-Wextra
+-Wsign-conversion
+-std=c99
+-o 2D_shot_them_up
+-lSDL2_image
+`sdl2-config --cflags --libs`
