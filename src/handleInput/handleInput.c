@@ -1,6 +1,9 @@
+#include <stdbool.h>
+#include <stdint.h>
+
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_scancode.h>
-#include <stdint.h>
+
 #include "defs.h"
 #include "initSDL.h"
 
@@ -54,7 +57,7 @@ void handleInput(uint8_t *isGameRunning, App *app) {
 
   switch (event.type) {
     case SDL_QUIT:
-      *isGameRunning = FALSE;
+      *isGameRunning = false;
       break;
     case SDL_KEYDOWN:
       doKeyDown(&event.key, app);

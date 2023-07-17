@@ -1,5 +1,6 @@
 #include <stdint.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 #include <SDL2/SDL_surface.h>
 #include <SDL2/SDL_timer.h>
@@ -15,7 +16,7 @@
 #include "errorHandler.h"
 #include "updateGameObjects.h"
 
-uint8_t isGameRunning = TRUE;
+uint8_t isGameRunning = true;
 
 int main(int argc, char* argv[], char** envp) {
   App app;
