@@ -30,5 +30,8 @@ A [Shoot 'em up](https://en.wikipedia.org/wiki/Shoot_%27em_up) game I'm working 
 make build
 ```
 ### Assets
-
-For the time being, [this](https://opengameart.org/content/1616-ship-collection) asset from [Master484](http://m484games.ucoz.com/) is being used, place it inside the "assets" folder.
+Keep in mind this repository uses [Git LFS](https://git-lfs.com/), you need that to get the assets back, after cloning, run:
+```bash
+cd shoot_em_up
+git lfs pull
+```
